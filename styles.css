@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #d8d8d8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  header {
+    background: url('refs/books.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .header-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    width: 100%;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  #bio ,
+  #contact  {
+    max-width: 600px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .bio-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .bio-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+  }
+  
+  #projects {
+    text-align: center;
+  }
+  
+  .project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 15px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  .project-media {
+    margin-bottom: 10px;
+  }
+  
+  .project-description {
+    font-size: 0.95em;
+  }
+  
+  #contact a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #888;
+  }
+  
